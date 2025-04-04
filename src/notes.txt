@@ -13,7 +13,7 @@ Components in React**
 - Components are reusable UI elements and can be functional or class-based.
 - Functional components use functions, while class components use ES6 classes.
 
-### **Types of Components in React**
+Types of Components in React**
 
 - **Functional Components**: These are simple JavaScript functions that return JSX.
 - **Class Components**: These are ES6 classes that extend `React.Component` and have lifecycle methods.

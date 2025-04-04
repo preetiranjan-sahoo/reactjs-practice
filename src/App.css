@@ -34,7 +34,7 @@
   cursor: pointer;
 } */
 
-.student{
+/* .student{
   border: 1px solid rgba(0, 0, 0, 0.858);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
@@ -45,4 +45,45 @@
 .student p{
   padding: 2px;
   margin: 0;
+} */
+
+/* .hey{
+  font-size: 50px;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+  max-width: 50%;
+}
+.by{
+  font-size: 50px;
+  background-color: rgb(22, 102, 229);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+  max-width: 50%;
+} */
+
+.frnds-category{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(47, 43, 43);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgb(198, 158, 235);
+}
+.nonFrnds-items li{
+  font-size: 2em;
+  list-style: none;
+  color: rgb(41, 40, 38);
+  text-align: center;
+  margin: 0;
+}
+.nonFrnds-items li:hover{
+  color: rgb(69, 54, 231);
+  cursor: pointer;
 }
