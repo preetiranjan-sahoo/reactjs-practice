@@ -7,24 +7,27 @@ import { Button } from "./Button";
 import { Student } from "./Student";
 import { UserGreeting } from "./UserGreeting";
 import { List } from "./List";
+import { ProfilePicture } from "./ProfilePicture";
 
 
 
 function App() {
-  const frnds = [
-    {id:1,name: "Banty", age: 25},
-    {id:2,name: "Manoj", age: 22},
-    {id:3,name: "Satish", age: 23}
-];
-  const nonFrnds = [
-    {id:1,name: "sd", age: 25},
-    {id:2,name: "sdz", age: 22},
-    {id:3,name: "sd", age: 23}
-];
+//   const frnds = [
+//     {id:1,name: "Banty", age: 25},
+//     {id:2,name: "Manoj", age: 22},
+//     {id:3,name: "Satish", age: 23}
+// ];
+//   const nonFrnds = [
+//     {id:1,name: "sd", age: 25},
+//     {id:2,name: "sdz", age: 22},
+//     {id:3,name: "sd", age: 23}
+// ];
   return (
     <>
-    {frnds.length > 0 && <List names = {frnds} category="frnds"/> }
-    {nonFrnds.length > 0 && <List names = {nonFrnds} category="nonFrnds"/> }
+    <ProfilePicture/>
+    {/* <Button/> */}
+    {/* {frnds.length > 0 && <List names = {frnds} category="frnds"/> }
+    {nonFrnds.length > 0 && <List names = {nonFrnds} category="nonFrnds"/> } */}
     {/* <UserGreeting isLoggedIn={true} username="Banty" /> */}
     {/* <Student name="Banty" age={25} isStudent={true} />
     <Student name="Satish" age={23} isStudent={false} />
