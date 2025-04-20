@@ -10,6 +10,8 @@ import { List } from "./List";
 import { ProfilePicture } from "./ProfilePicture";
 import { MyComponent } from "./MyComponent";
 import { Counter } from "./Counter";
+import { Onchange } from "./Onchange";
+import { ColorPicker } from "./ColorPicker";
 
 
 
@@ -26,7 +28,9 @@ function App() {
 // ];
   return (
     <>
-    <Counter/>
+    <ColorPicker/>
+    {/* <Onchange/> */}
+    {/* <Counter/> */}
     {/* <MyComponent/> */}
     {/* <ProfilePicture/> */}
     {/* <Button/> */}
