@@ -12,6 +12,9 @@ import { MyComponent } from "./MyComponent";
 import { Counter } from "./Counter";
 import { Onchange } from "./Onchange";
 import { ColorPicker } from "./ColorPicker";
+import { State } from "./Sate";
+import { StateArray } from "./StateArray";
+import { AddCar } from "./CarAdd";
 
 
 
@@ -28,7 +31,10 @@ function App() {
 // ];
   return (
     <>
-    <ColorPicker/>
+    <AddCar/>
+    {/* <StateArray/> */}
+    {/* <State/> */}
+    {/* <ColorPicker/> */}
     {/* <Onchange/> */}
     {/* <Counter/> */}
     {/* <MyComponent/> */}
